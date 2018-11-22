@@ -7,7 +7,9 @@ margin: 0;
 padding: 0;
 background: url(rsz_2rsz_1rsz_1rsz_loggotyp.jpg);
 background-position: center;
-
+background-image: linear-gradient(to bottom right,#003566,#66b5ff);
+opacity: 1;
+background-size: cover;
 }
 
 ul {
@@ -18,7 +20,7 @@ ul {
 }
 
 h1{
-color:#0d0d0d;
+color:#0077e6;
 }
 
 .container{
@@ -31,7 +33,7 @@ header{
 height: 100px;
 width: 100%;
 display: flex;
-background-color: #79ADAD;
+background-color: #001a33;
 font-family: 'Raleway', sans-serif;
 padding-top: 5px;
 padding-left: 15px;
