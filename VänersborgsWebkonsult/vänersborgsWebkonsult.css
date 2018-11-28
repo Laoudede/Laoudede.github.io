@@ -5,9 +5,9 @@
 html{
 margin: 0;
 padding: 0;
-background: url(rsz_2rsz_1rsz_1rsz_loggotyp.jpg);
+background-image: url(rsz_2rsz_1rsz_1rsz_loggotyp.jpg);
 background-position: center;
-background-image: linear-gradient(to bottom right,#003566,#66b5ff);
+background-image: linear-gradient(to bottom,#003566,#66b5ff);
 opacity: 1;
 background-size: cover;
 }
@@ -17,10 +17,12 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
+    padding-left: 5px;
 }
 
 h1{
 color:#0077e6;
+font-size: 45px;
 }
 
 .container{
@@ -50,23 +52,72 @@ padding: 0;
 li a{
   display: block;
   width: 250px;
-  padding-left: 10px;
+  height: 100%;
+  padding-left: 20px;
   padding-top: 5px;
+
 }
 
 main{
-width: 100%;
-height: 360px;
-background-color:
-padding: 5px;
-font-size: 22px;
+  width: 100%;
+  height: 360px;
+  background-color:
 }
 
+article{
+  padding-left: 280px;
+  padding-top: 12px;
+  font-size: 23px;
+  font-family: 'Muli', sans-serif;
+}
+figure{
+  padding-top: 10px;
+
+}
 footer{
   width: 100%;
   height: 30px;
   background-color: #3F8E8E;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Muli';
   padding: 0;
-  padding-left: 15px;
+  padding-left: 280px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+
+h1{
+  font-size: 35px;
+
+}
+
+}
+
+@media screen and (max-width: 660px) {
+
+h1{
+  font-size: 30px;
+}
+
+}
+
+@media screen and (max-width: 570px) {
+
+  header{
+    width:100%;
+  }
+  h1{
+    font-size: 25px;
+  }
+
+  nav{
+    width:100%;
+  }
+  main{
+    width:100%;
+  }
+  li a{
+    width:100px;
+  }
+
 }
