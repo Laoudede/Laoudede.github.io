@@ -18,34 +18,45 @@ body{
 
 }
 
-.sida1{
+.container{
 
   width: 100%;
-  height: 1000px;
+  height: 3000px;
   margin: 0px;
   padding: 0px;
 }
 
-.wrapper{
+.sida1{
 
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 33%;
   margin: 0%;
-}
+  background-color: blue;
 
+}
+header{
+
+width: 100%;
+height: 10%;
+display: flex;
+background-color: pink;
+
+
+}
 nav{
 
-  width:100%;
+  width:20%;
   height: 10%;
   display: flex;
   background-color: grey;
-
+  position: fixed;
+  right: 0;
 }
 
 .vänsterAside{
 
-  display: flex;
+  display: block;
   width: 20%;
   height: 100%;
   background-color: black;
@@ -54,7 +65,7 @@ nav{
 
 main{
 
-  display: flex;
+  display: block;
   width: 60%;
   height: 100%;
   opacity: 0.7;
@@ -64,7 +75,7 @@ main{
 
 .högerAside{
 
-  display: flex;
+  display: block;
   width: 20%;
   height: 100%;
   background-color: black;
@@ -73,21 +84,21 @@ main{
 
 .sida2{
 
-  width:100%;
-  height:1000px;
-  margin:0px;
-  padding: 0px;
+  display: flex;
+  width: 100%;
+  height: 33%;
+  margin: 0%;
   background-color: green;
+
 
 }
 
 .sida3{
 
-  width: 100%;
-  height: 1000px;
-  margin: 0px;
-  padding: 0px;
-  background-color: purple;
   display: flex;
+  width: 100%;
+  height: 33%;
+  margin: 0%;
+  background-color: purple;
 
 }
