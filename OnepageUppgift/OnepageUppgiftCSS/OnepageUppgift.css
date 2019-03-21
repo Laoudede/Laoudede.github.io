@@ -35,9 +35,10 @@ header{
 width: 99%;
 height: 10%;
 display: flex;
-background-color: #000080;
+background-color: #003566;
 padding-left: 1%;
 color: white;
+font-family: 'Archivo Black', sans-serif;
 
 }
 nav{
@@ -61,7 +62,7 @@ main{
   top: 30px;
   left: 300px;
   position: relative;
-  padding-left: 20px;
+  padding-left: 1%;
 
 }
 
@@ -77,7 +78,15 @@ main{
 
 #textPåSida2{
 
-
+  position: relative;
+  background-color: white;
+  width: 40%;
+  height: 30%;
+  top: 400px;
+  right: 300px;
+  padding-left: 1%;
+  font-family: 'Lilita One', cursive;
+  font-size: 50px;
 
 }
 
@@ -100,7 +109,7 @@ main{
 #bildPåSida3{
 
 position: relative;
-top: 400px;
+top: 350px;
 left: 80px;
 
 }
@@ -112,7 +121,10 @@ left: 80px;
   background-color:#2C2F33;
   color: white;
   position: relative;
-  top: 400px;
+  top: 350px;
   left: 300px;
+  padding-left: 1%;
+  font-family: 'Lilita One', cursive;
+  font-size: 40px;
 
 }
