@@ -4,7 +4,7 @@ html{
   height: 100%;
   margin: 0px;
   padding: 0px;
-  background-image: url("../OnepageUppgiftImages/technologyImage1024x682.jpg");
+  background: url("../OnepageUppgiftImages/technologyImage1024x682.jpg");
   background-size: cover;
   background-position: center;
 
@@ -43,14 +43,30 @@ font-family: 'Archivo Black', sans-serif;
 }
 nav{
 
-  width:18%;
+  width:7%;
   height: 10%;
   display: flex;
   background-color: #3973ac;
   position: fixed;
   right: 0;
+
 }
 
+#button{
+
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  position: fixed;
+  width: 7%;
+  height: 10%;
+  background-image: url("../OnepageUppgiftImages/toTopImgTransparentV2.png") ;
+  background-repeat: no-repeat;
+
+}
 
 main{
 
@@ -92,6 +108,9 @@ main{
 
 #bildPåSida2{
 
+  width: 484px;
+  height: 272px;
+  background: url("../OnepageUppgiftImages/img_sprite.jpg") 2px 2px;
   position: relative;
   top: 400px;
   left: 1200px;
