@@ -79,9 +79,17 @@ main{
   left: 300px;
   position: relative;
   padding-left: 1%;
+  font-family: 'Lilita One', cursive;
+  font-size: 50px;
 
 }
 
+#formulärBehållare{
+
+  font-family: 'Lilita One', cursive;
+  font-size: 25px;
+
+}
 
 #sida2{
 
@@ -127,6 +135,8 @@ main{
 
 #bildPåSida3{
 
+width: 685px;
+height: 435px;
 position: relative;
 top: 350px;
 left: 80px;

@@ -2,7 +2,7 @@ $("#button").click(function(){
 
 
   $('html, body').animate({
-        scrollTop: $("#box2").offset().top
+        scrollTop: $("header").offset().top
     }, 4000);
 
 
