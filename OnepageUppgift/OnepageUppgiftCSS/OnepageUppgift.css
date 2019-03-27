@@ -65,7 +65,6 @@ nav{
   height: 10%;
   /*background: url("toTopImgTransparentV2.png");*/
   background: url("../OnepageUppgiftImages/img_spriteV2.jpg") -500px -70px;
-  /*Fixa bilden via Sprite.*/
   background-repeat: no-repeat;
   padding: 0;
 
@@ -167,10 +166,78 @@ left: 80px;
 
 @media screen and (max-width: 1700px) {
 
-#bildPåSida2
+  #bildPåSida2{
+
+    left: 1000px;
+
+
+  }
+
+  #textPåSida2{
+
+    height: 32%;
+
+
+  }
+
+  #textPåSida3{
+
+    left: 150px;
+
+  }
+
+}
+
+@media screen and (max-width: 1500px) {
+
+  #bildPåSida2{
+
+    left: 800px;
+    top: 100px;
+
+  }
 
 
 
+  #textPåSida3{
 
+    left: 150px;
+
+  }
+
+}
+
+@media screen and (max-width: 1400px) {
+
+  #bildPåSida2{
+
+    left: 200px;
+    top: 100px;
+
+  }
+
+  #textPåSida3{
+
+    left: 150px;
+
+  }
+
+}
+
+@media screen and (max-width: 1225px) {
+
+  #textPåSida2{
+
+    height: 36%;
+
+  }
+
+@media screen and (max-width: 1135px) {
+
+  #textPåSida2{
+
+    height: 42%;
+
+  }
 
 }
