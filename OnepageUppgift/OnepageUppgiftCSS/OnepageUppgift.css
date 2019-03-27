@@ -61,9 +61,11 @@ nav{
   overflow: hidden;
   outline:none;
   position: fixed;
-  width: 7%;
-  height: 10%;
-  background-image: url("../OnepageUppgiftImages/toTopImgTransparentV2.png") ;
+  width: 165px;
+  height: 115px;
+  /*background: url("toTopImgTransparentV2.png");*/
+  background: url("../OnepageUppgiftImages/img_spriteV2.jpg") 600px 50px;
+  /*Fixa bilden via Sprite.*/
   background-repeat: no-repeat;
 
 }
@@ -119,7 +121,7 @@ main{
 
   width: 484px;
   height: 272px;
-  background: url("../OnepageUppgiftImages/img_sprite.jpg") 2px 2px;
+  background: url("../OnepageUppgiftImages/img_spriteV2.jpg") 2px 2px;
   position: relative;
   top: 400px;
   left: 1200px;
@@ -136,8 +138,9 @@ main{
 
 #bildPåSida3{
 
-width: 685px;
+width: 678px;
 height: 435px;
+background: url("../OnepageUppgiftImages/img_spriteV2.jpg") 0px 425px;
 position: relative;
 top: 350px;
 left: 80px;
