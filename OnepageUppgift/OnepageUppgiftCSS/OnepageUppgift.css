@@ -73,14 +73,15 @@ main{
   display: flex;
   width: 70%;
   height: 70%;
-  opacity: 0.8;
-  background-color: #0099ff;
+  opacity: 0.85;
+  background-color: #003566;
   top: 30px;
   left: 300px;
   position: relative;
   padding-left: 1%;
   font-family: 'Lilita One', cursive;
   font-size: 50px;
+  color: white;
 
 }
 
@@ -146,11 +147,11 @@ left: 80px;
 #textPåSida3{
 
   width: 40%;
-  height: 30%;
+  height: 32%;
   background-color:#2C2F33;
   color: white;
   position: relative;
-  top: 350px;
+  top: 425px;
   left: 300px;
   padding-left: 1%;
   font-family: 'Lilita One', cursive;
