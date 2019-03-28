@@ -200,7 +200,7 @@ left: 80px;
 
   }
 
-
+}
 
   #textPåSida3{
 
@@ -235,6 +235,8 @@ left: 80px;
 
   }
 
+}
+
 @media screen and (max-width: 1135px) {
 
   #textPåSida2{
@@ -243,7 +245,19 @@ left: 80px;
 
   }
 
-@media screen and (max-width: 1135px) {
+}
+
+@media screen and (max-width: 1020px) {
+
+  main{
+
+    left: 100px;
+
+  }
+
+}
+
+@media screen and (max-width: 800px) {
 
   main{
 
@@ -268,37 +282,37 @@ left: 80px;
 
   }
 
-#bildPåSida2{
+  #bildPåSida2{
 
-  left: 50px;
-  width: 80%;
+    left: 50px;
+    width: 80%;
 
-}
+  }
 
-#textPåSida2{
+  #textPåSida2{
 
-  width: 90%;
-  height: 70%;
+    width: 90%;
+    height: 70%;
 
-}
+  }
 
-#bildPåSida3{
+  #bildPåSida3{
 
-  top: 300px;
-  display: block;
-  left: 0px;
-  width: 100%;
+    top: 300px;
+    display: block;
+    left: 0px;
+    width: 100%;
 
-}
+  }
 
-#textPåSida3{
+  #textPåSida3{
 
-  left: 0px;
-  top: 0px;
-  display: block;
-  width: 100%;
-  height: 70%;
+    left: 0px;
+    top: 0px;
+    display: block;
+    width: 100%;
+    height: 70%;
 
-}
+  }
 
 }
