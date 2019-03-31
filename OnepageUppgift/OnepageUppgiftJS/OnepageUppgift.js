@@ -1,6 +1,19 @@
 $(document).ready(function() {
-/*$('#bildPåSida2').hidden();
-$('#textPåSida2').hidden();*/
+
+  $('#bildPåSida2').hide();
+  $('#textPåSida2').hide();
+
+
+  var sc = $(window).scrollTop();
+
+  if(sc>1080){
+
+
+    $('#bildPåSida2').fadeIn(5000);
+    $('#textPåSida2').fadeIn(5000);
+
+
+  }
 
 $("#button").click(function(){
 
@@ -10,15 +23,6 @@ $("#button").click(function(){
     }, 2000);
 
 
+  });
 
 });
-
-/*if($(window).scrollTop()>1080){
-
-
-  $('#bildPåSida2').fadeIn(5000, function());
-  $('#textPåSida2').fadeIn(5000, function());
-
-
-}*/
-}
