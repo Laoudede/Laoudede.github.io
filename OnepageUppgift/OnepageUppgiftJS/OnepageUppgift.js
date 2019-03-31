@@ -1,3 +1,4 @@
+$(document).ready(function() {
 /*$('#bildPåSida2').hidden();
 $('#textPåSida2').hidden();*/
 
@@ -20,3 +21,4 @@ $("#button").click(function(){
 
 
 }*/
+}
