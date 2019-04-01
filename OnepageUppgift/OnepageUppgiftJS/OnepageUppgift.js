@@ -2,16 +2,16 @@ $(document).ready(function() {
 
   $('#bildPåSida2').hide();
   $('#textPåSida2').hide();
+  $('nav').show();
 
 
   var sc = $(window).scrollTop();
 
-  if(sc>1080){
+  if(sc<800){
 
 
-    $('#bildPåSida2').fadeIn(5000);
-    $('#textPåSida2').fadeIn(5000);
-
+    $('#bildPåSida2').fadeIn(4000);
+    $('#textPåSida2').fadeIn(4000);
 
   }
 
@@ -24,5 +24,8 @@ $("#button").click(function(){
 
 
   });
+
+
+
 
 });
