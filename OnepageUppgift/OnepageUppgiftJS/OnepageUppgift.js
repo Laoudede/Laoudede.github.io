@@ -10,8 +10,18 @@ $(document).ready(function() {
   if(sc<800){
 
 
-    $('#bildPåSida2').fadeIn(4000);
-    $('#textPåSida2').fadeIn(4000);
+    $('#bildPåSida2').fadeIn(3000);
+    $('#textPåSida2').fadeIn(3000);
+
+  }
+
+  $('#bildPåSida3').hide();
+  $('#textPåSida3').hide();
+
+  if(sc<2000){
+
+    $('#bildPåSida3').fadeIn(6000);
+    $('#textPåSida3').fadeIn(6000);
 
   }
 
