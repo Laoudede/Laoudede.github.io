@@ -1,29 +1,29 @@
 $(document).ready(function() {
 
-  $('#bildPåSida2').hide();
-  $('#textPåSida2').hide();
   $('nav').show();
 
-
-  var sc = $(window).scrollTop();
-
-  if(sc<800){
-
-
-    $('#bildPåSida2').fadeIn(3000);
-    $('#textPåSida2').fadeIn(3000);
-
-  }
+  $('#bildPåSida2').hide();
+  $('#textPåSida2').hide();
 
   $('#bildPåSida3').hide();
   $('#textPåSida3').hide();
 
-  if(sc<2000){
+  var sc = $(window).scrollTop();
 
-    $('#bildPåSida3').fadeIn(6000);
-    $('#textPåSida3').fadeIn(6000);
+    if(sc>500){
 
-  }
+      $('#bildPåSida2').fadeIn(3000);
+      $('#textPåSida2').fadeIn(3000);
+
+    }
+
+    if(sc>2000){
+
+      $('#bildPåSida3').fadeIn(5000);
+      $('#textPåSida3').fadeIn(5000);
+
+    }
+
 
 $("#button").click(function(){
 
@@ -34,8 +34,5 @@ $("#button").click(function(){
 
 
   });
-
-
-
 
 });
