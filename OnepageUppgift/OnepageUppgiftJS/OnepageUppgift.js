@@ -10,14 +10,15 @@ $(document).ready(function() {
 
   var sc = $(window).scrollTop();
 
-    if(sc>500){
+/*Var god ladda om sidan och skrolla ner direkt för att få se skriptet in action*/
+    if(sc<500){
 
       $('#bildPåSida2').fadeIn(3000);
       $('#textPåSida2').fadeIn(3000);
 
     }
 
-    if(sc>2000){
+    if(sc<2000){
 
       $('#bildPåSida3').fadeIn(5000);
       $('#textPåSida3').fadeIn(5000);
