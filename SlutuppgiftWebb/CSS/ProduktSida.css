@@ -81,3 +81,37 @@ nav{
   justify-content: space-between;
 
 }
+
+main{
+
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10%;
+
+}
+
+#Produkt{
+
+height: 30%;
+width: 30%;
+
+
+}
+
+
+#ProduktInformation{
+
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  right: 300;
+
+
+}
+
+h4{
+
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+
+}
