@@ -31,16 +31,33 @@ ul{
 }
 
 li{
-  background-color: #ffff66;
+  background: rgba(0, 0, 0, 0.5);
   width: 20%;
   text-align: center;
   font-family: 'Abril Fatface', cursive;
-  color: #7A7A7A;
+  color: white;
+}
 
+a:link{
 
+color: #7A7A7A;
+  text-decoration: none;
 
 }
 
+a:visited{
+
+color: #7A7A7A;
+text-decoration: none;
+
+}
+
+a:active{
+
+color: #7A7A7A;
+text-decoration: none;
+
+}
 
 header{
 
