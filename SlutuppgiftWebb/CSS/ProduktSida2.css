@@ -121,12 +121,12 @@ h4{
 
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
 
   #ProduktInformation{
 
     padding-left: 0%;
-    padding-top: 60%;
+    padding-top: 70%;
 
 
   }

@@ -16,6 +16,7 @@ h1{
 
   margin: 0;
   margin-left: 1%;
+  width: 30%;
 
 }
 
@@ -113,7 +114,7 @@ main{
 
 }
 
-#toTopKnapp{
+button{
 
   background-repeat:no-repeat;
   border: none;
@@ -121,22 +122,11 @@ main{
   overflow: hidden;
   outline:none;
   position: fixed;
-  width: 7%;
-  height: 10%;
-  background-color: rgba(0, 0, 0, 0.5);
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 70px;
+  height: 100px;
+  background: (0, 0, 0);
 
 
 }
-
-@media screen and (max-width: 700px){
-
-  .Produkt{
-
-    margin-left: 20%;
-
-  }
-
 
 }
