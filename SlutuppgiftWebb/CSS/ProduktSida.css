@@ -79,7 +79,7 @@ nav{
   background-color: grey;
   display: flex;
   justify-content: space-between;
-  
+
 
 }
 
@@ -87,6 +87,7 @@ main{
 
   background: rgba(0, 0, 0, 0.5);
   padding: 10%;
+  display: flex;
 
 }
 
@@ -104,8 +105,9 @@ width: 30%;
   color: white;
   font-family: 'Abril Fatface', cursive;
   font-size: 30px;
-  right: 300;
-
+  height: 30%;
+  width: 30%;
+  padding-left: 30%;
 
 }
 
@@ -114,5 +116,17 @@ h4{
   color: white;
   font-family: 'Abril Fatface', cursive;
   font-size: 40px;
+
+}
+
+@media screen and (max-width 1500px) {
+
+  #ProduktInformation{
+
+    padding-left: 0%;
+    margin-top: 30%;
+
+  }
+
 
 }
