@@ -114,7 +114,7 @@ main{
 
 }
 
-button{
+#toTopKnapp{
 
   background-repeat:no-repeat;
   border: none;
@@ -124,7 +124,7 @@ button{
   position: fixed;
   width: 70px;
   height: 100px;
-  background: (0, 0, 0);
+  background: #FFFFFF;
 
 
 }
