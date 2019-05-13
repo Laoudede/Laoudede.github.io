@@ -61,13 +61,14 @@ text-decoration: none;
 
 header{
 
-text-align: left;
-height: 300px;
-width: 100%;
-background-image: url(../Images/business-suit-690048_1920.jpg);
-font-family: 'Abril Fatface', cursive;
-color: #7A7A7A;
-font-size: 75px;
+  text-align: left;
+  height: 300px;
+  width: 100%;
+  background-image: url(../Images/business-suit-690048_1920.jpg);
+  font-family: 'Abril Fatface', cursive;
+  color: #7A7A7A;
+  font-size: 75px;
+
 
 
 }

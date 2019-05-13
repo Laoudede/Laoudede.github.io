@@ -113,7 +113,22 @@ main{
 
 }
 
+#toTopKnapp{
 
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  position: fixed;
+  width: 7%;
+  height: 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+}
 
 @media screen and (max-width: 700px){
 
