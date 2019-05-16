@@ -197,8 +197,45 @@ p{
 
     padding-left: 0%;
 
+
   }
 
+  li{
+
+    font-size: 30px;
+
+
+  }
+
+
+
+}
+
+@media screen and (max-width: 800px){
+
+  li{
+
+    width: 25%;
+    font-size: 25px;
+
+  }
+}
+
+@media screen and (max-width: 610px){
+
+  #inspirationHuvudmeny{
+
+    width: 100%;
+    overflow: hidden;
+
+  }
+
+  #inspirationHuvudmeny2{
+
+    width: 100%;
+    overflow: hidden;
+
+  }
 
 
 }
