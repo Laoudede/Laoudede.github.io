@@ -34,28 +34,32 @@ li{
   background: rgba(0, 0, 0, 0.5);
   width: 20%;
   text-align: center;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Times New Roman", Times, serif;
   color: white;
   font-size: 45px;
 }
 
+li a{
+    color: white;
+}
+
 a:link{
 
-color: #7A7A7A;
+  color: white;
   text-decoration: none;
 
 }
 
 a:visited{
 
-color: #7A7A7A;
+color: #999999;
 text-decoration: none;
 
 }
 
 a:active{
 
-color: #7A7A7A;
+color: #999999;
 text-decoration: none;
 
 }
@@ -66,7 +70,7 @@ header{
   height: 300px;
   width: 100%;
   background-image: url(../Images/business-suit-690048_1920.jpg);
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Times New Roman", Times, serif;
   color: #7A7A7A;
   font-size: 75px;
 
@@ -96,8 +100,6 @@ main{
 
 #Produkt{
 
-height: 30%;
-width: 30%;
 margin-left: 5%;
 
 }
@@ -106,41 +108,39 @@ margin-left: 5%;
 #ProduktInformation{
 
   color: white;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Times New Roman", Times, serif;
   font-size: 30px;
   height: 30%;
   width: 40%;
-  padding-left: 30%;
+  padding-left: 5%;
 
 }
 
 h4{
 
   color: white;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Times New Roman", Times, serif;
   font-size: 40px;
 
 }
 
 @media screen and (max-width: 1200px) {
 
-  #ProduktInformation{
+  li{
 
-    padding-left: 0%;
-    padding-top: 60%;
-
-  }
-
-  main{
-
-    height: 100%;
+    font-size: 30px;
 
   }
-
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
+
+  main{
+    position:static;
+    flex-direction: column;
+
+  }
 
 #Produkt{
 
@@ -148,6 +148,16 @@ h4{
 
 }
 
+#ProduktInformation{
 
+  padding-left: 5%;
+
+}
+
+li{
+
+  font-size: 20px;
+
+}
 
 }
