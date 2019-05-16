@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+  $("#toTopKnapp").show();
+
   $("#toTopKnapp").click(function(){
 
 
