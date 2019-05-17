@@ -103,19 +103,13 @@ main{
 #inspirationHuvudmeny{
 
     padding-left: 2%;
-    width: 640px; height: 427px;
-    background: url('../Images/css_sprites.png') -670px -2317px;
 
 }
 
 #inspirationHuvudmeny2{
 
 
-  width: 640px;
-  height: 427px;
-  background: url('../Images/css_sprites.png') -2059px -1492px;
-
-
+  
 }
 
 #välkommenText{
